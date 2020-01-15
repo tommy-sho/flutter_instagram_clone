@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import './home.dart';
+import 'package:instagram_clone/insta/home.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(MaterialApp(
+      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+    ));
 
 class MyApp extends StatelessWidget {
   @override
